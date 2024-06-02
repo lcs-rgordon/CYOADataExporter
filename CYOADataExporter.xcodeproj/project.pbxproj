@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		812F51202C0CBE1C00C1A270 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F511F2C0CBE1C00C1A270 /* main.swift */; };
+		812F51282C0CBE5100C1A270 /* StoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F51272C0CBE5100C1A270 /* StoryData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		812F511C2C0CBE1C00C1A270 /* CYOADataExporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CYOADataExporter; sourceTree = BUILT_PRODUCTS_DIR; };
 		812F511F2C0CBE1C00C1A270 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		812F51272C0CBE5100C1A270 /* StoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,17 @@
 			isa = PBXGroup;
 			children = (
 				812F511F2C0CBE1C00C1A270 /* main.swift */,
+				812F51262C0CBE4300C1A270 /* Model */,
 			);
 			path = CYOADataExporter;
+			sourceTree = "<group>";
+		};
+		812F51262C0CBE4300C1A270 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				812F51272C0CBE5100C1A270 /* StoryData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				812F51202C0CBE1C00C1A270 /* main.swift in Sources */,
+				812F51282C0CBE5100C1A270 /* StoryData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
